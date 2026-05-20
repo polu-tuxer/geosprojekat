@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>privreda</title>
+    <style>
+        /* Page layout */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f2f2f2;
+  min-height: 100vh;
+
+  /* Two equal columns; header and footer span both columns */
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto 1fr auto;
+  grid-template-areas:
+    "header header"
+    "map container"
+    "footer footer";
+  gap: 0;
+  box-sizing: border-box;
+}
+
+/* Header */
+header {
+  grid-area: header;
+  background: #7b0000;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Map (centered in left half) */
+#map {
+  grid-area: map;
+  justify-self: center;   /* horizontal center in left column */
+  align-self: center;     /* vertical center in middle row */
+  width: 90%;
+  max-width: 1000px;
+  height: 80vh;
+  max-height: 100%;
+  padding: 5px;
+  box-sizing: border-box;
+  background: transparent;
+  border-radius: 8px;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.08);
+}
+
+/* Right panel (centered on the screen) */
+.container {
+  /* keep grid placement but override centering to center of viewport */
+  grid-area: container;
+  width: 90%;
+  max-width: 420px;
+  padding: 24px;
+  box-sizing: border-box;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.06);
+
+  /* center container in the viewport */
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: center;
+  justify-content: center;
+}
+
+.container h1 {
+  margin: 0;
+  font-size: 24px;
+  color: #222;
+  text-align: center;
+}
+
+/* Footer */
+footer {
+  grid-area: footer;
+  background: #222;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Responsive: stack vertically on narrow screens */
+@media (max-width: 900px) {
+  body {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "header"
+      "map"
+      "container"
+      "footer";
+  }
+
+  #map {
+    width: 100%;
+    height: 50vh;
+    border-radius: 6px;
+  }
+
+  .container {
+    position: static;
+    transform: none;
+    width: calc(100% - 40px);
+    max-width: none;
+    align-self: center;
+    justify-self: center;
+    padding: 20px;
+  }
+}
+
+    </style>
+</head>
+<body>
+    <header>Privreda istocne srbije</header>
+    <div class="container">
+        <h1>Privreda istocne srbije</h1>
+        <p>Ovaj region je uglavnom poljoprivredna i rudarska regija gde je izrazeno i zanatstvo.
+Zemljoradnja i stocarstvo su delovi poljoprivrede koji su najvise izrazeni u ovom delu Srbije.<br><br>
+
+Zemljoradnja je najvise izrazena u kotlinama kao sto su Negotinska,Zajecarska,Knjazevska i Pirotska.<br><br>
+
+Gaji se zitarice,industrijsko bilje,povrce,voce,vinova loza po kome su Negotin,Zajecar i Knjazevac pozna u Srbiji.
+Stocarstvo je izrazeno na planinama kao sto su Stara,Suva,Svrljiske,Homolj.
+Rudarstvo je deo privrede koji se javlja jos iz vremena Rima na teritoriji Bora,Majdanpeka i Krivelja.<br><br>
+
+Oni su najvise javljaju u zoni vulkanizma.<br>
+
+U rudnicima se javljaju preko 17 vrste metala(zlato,srebro,platina,gvozdje…)<br></p>
+        </div>
+   <footer>
+   <a href="index.html">Interaktivna karta</a>     <a href="heroji.html">Heroji kraja</a>     <a href="privreda.html">Privreda istocne srbije</a> 
+</footer>
+
+    
+</body>
+</html>
