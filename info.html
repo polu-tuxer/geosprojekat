@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>info</title>
+
+  <!-- Your stylesheet -->
+  <link rel="stylesheet" href="style1.css" />
+</head>
+<body>
+  <header>info</header>
+
+  <div class="container">
+    <h1 id="info-title"></h1>
+    <img src="" alt="" id="info-img" />
+    <p id="info-text"></p>
+  </div>
+
+  <footer>
+    <a href="index.html">Interaktivna karta</a>
+    <a href="heroji.html">Heroji kraja</a>
+    <a href="privreda.html">Privreda istocne srbije</a>
+  </footer>
+
+  <script>
+    // populate fields from sessionStorage once DOM is ready
+    document.addEventListener('DOMContentLoaded', () => {
+      const raw = sessionStorage.getItem('markerInfo');
+      if (!raw) return;
+      try {
+        const { title, text, imgSrc } = JSON.parse(raw);
+        const elTitle = document.getElementById('info-title');
+        const elText = document.getElementById('info-text');
+        const elImg = document.getElementById('info-img');
+        if (elTitle) elTitle.textContent = title || '';
+        if (elText) elText.textContent = text || '';
+        if (elImg && imgSrc) elImg.src = imgSrc;
+      } catch (e) {
+        console.error('Failed to parse marker info', e);
+      }
+    });
+  </script>
+</body>
+</html>
