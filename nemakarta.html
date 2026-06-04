@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+     integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+     crossorigin=""/>
+     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+     integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+     crossorigin=""></script>
+     <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>Kviz karta</header>
+    <div id="map" contenteditable=""></div>
+    <div class="container">
+           <div id="quizPanel">
+    <h3>Toponimski kviz</h3>
+
+    <button onclick="startQuiz(5)">5</button>
+    <button onclick="startQuiz(10)">10</button>
+    <button onclick="startQuiz(20)">20</button>
+
+    <p id="target">Izaberi broj pitanja</p>
+    <p id="progress"></p>
+    <p id="timer"></p>
+    <p id="misses"></p>
+</div>
+  
+   </div>
+
+    
+
+    <footer>
+   <a href="index.html">Interaktivna karta</a>     <a href="heroji.html">Heroji kraja</a>     <a href="privreda.html">Privreda istocne srbije i manifestacije</a> 
+</footer>
+<script src="nema.js"></script>
+
+</body>
+</html>
