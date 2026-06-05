@@ -96,121 +96,115 @@ function openInfo(title, text, imgSrc) {
   window.location.href = 'info.html';
 }
 nikolaAran.on('click', () => openInfo(
-  'Crkva Svetog Nikole, Aleksinac',
-  'Црква Светог Николе у Алексинцу је православна црква и споменик културе. Саграђена је 1836–1837. по наредби кнеза Милоша Обреновића и представља значајан верски и историјски споменик у месту.',
-  'https://upload.wikimedia.org/wikipedia/commons/4/4d/Wiki.Biseri_V_Crkva_Svetog_Nikole_006.jpg'
+'Crkva Svetog Nikole, Aleksinac',
+'Црква Светог Николе у Алексинцу је православна црква и споменик културе. Саграђена је 1836–1837. по наредби кнеза Милоша Обреновића и представља значајан верски и историјски споменик у месту.',
+'icons/slike/sveti nikola.png'
 ));
 
 vazensija.on('click', () => openInfo(
-  'Crkva Vaznesenja',
-  'Црква Вазнесења (Вазнесењска црква) је православни храм посвећен Вазнесењу Господњем; многе Вазнесењске цркве у Србији потичу из различитих епоха и често садрже вредне фреске и иконостасе.',
-  'https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Crkva_Vaznesenja_%28primerak%29.jpg/250px-Crkva_Vaznesenja_%28primerak%29.jpg'
+'Crkva Vaznesenja',
+'Црква Вазнесења (Вазнесењска црква) је православни храм посвећен Вазнесењу Господњем; многе Вазнесењске цркве у Србији потичу из различитих епоха и често садрже вредне фреске и иконостасе.',
+'icons/slike/Crkva Vaznesenja.png'
 ));
 
 Dimitrije.on('click', () => openInfo(
-  'Crkva Svetog Dimitrija',
-  'Црква светог Димитрија је православни храм посвећен Светом Димитрију, мученику и једном од најпоштованијих светитеља у православном свету; у Србији постоји више цркава са овим заштитником, често са богатом унутрашњом декорацијом.',
-  'https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Church_of_Saint_Demetrius.jpg/250px-Church_of_Saint_Demetrius.jpg'
+'Crkva Svetog Dimitrija',
+'Црква светог Димитрија је православни храм посвећен Светом Димитрију, мученику и једном од најпоштованијих светитеља у православном свету; у Србији постоји више цркава са овим заштитником, често са богатом унутрашњом декорацијом.',
+'icons/slike/crkva svetog dimitrija.png'
 ));
 
 rojBogorodice.on('click', () => openInfo(
-  'Crkva Rođenja Presvete Bogorodice',
-  'Црква Рођења Пресвете Богородице је храм посвећен празнику Рођења Пресвете Богородице; такве цркве су у православљу честе и представљају важне парохијске центре са иконостасима и фрескама.',
-  'https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Church_of_the_Nativity_of_the_Virgin.jpg/250px-Church_of_the_Nativity_of_the_Virgin.jpg'
+'Crkva Rođenja Presvete Bogorodice',
+'Црква Рођења Пресвете Богородице је храм посвећен празнику Рођења Пресвете Богородице; такве цркве су у православљу честе и представљају важне парохијске центре са иконостасима и фрескама.',
+'icons/slike/Crkva Rodenja Presvete Bogorodice.png'
 ));
 
 nikolaKurs.on('click', () => openInfo(
-  'Manastir Svetog Nikole (kod Kuršumlije)',
-  'Манастир Светог Николе крај Куршумлије је српски православни манастир посвећен светом Николи; манастири овог имена у Србији често имају дугу историју и вредну монументалну иконографију.',
-  'https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Manastir_Svetog_Nikole_%28primerak%29.jpg/250px-Manastir_Svetog_Nikole_%28primerak%29.jpg'
+'Manastir Svetog Nikole (kod Kuršumlije)',
+'Манастир Светог Николе крај Куршумлије је српски православни манастир посвећен светом Николи; манастири овог имена у Србији често имају дугу историју и вредну монументалну иконографију.',
+'icons/slike/Manastir Svetog Nikole (Kursumlija).png'
 ));
 
 useksvjovan.on('click', () => openInfo(
-  'Crkva Усековања главе Светог Јована Крститеља, Lebane',
-  'Црква Усековања главе Светог Јована Крститеља је храм посвећен том догађају у хришћанском календару; такви храмови носе локалне обредне и културне значајности у парохијама где се налазе.',
-  'https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Church_of_the_Head_of_John_the_Baptist.jpg/250px-Church_of_the_Head_of_John_the_Baptist.jpg'
+'Crkva Усековања главе Светог Јована Крститеља, Lebane',
+'Црква Усековања главе Светог Јована Крститеља је храм посвећен том догађају у хришћанском календару; такви храмови носе локалне обредне и културне значајности у парохијама где се налазе.',
+'icons/slike/Crkva Usekovanja glave Svetog Jovana Krstitelja, Lebane.png.png'
 ));
 
 jasSvJovan.on('click', () => openInfo(
-  'Јашуњски манастир Светог Јована',
-  'Јашуњски манастир посвећен Светом Јовану представља духовни и културни центар у региону; манастирске заједнице обично чувају традиције и богату црквену уметност.',
-  'https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Monastery_of_St_John_%28example%29.jpg/250px-Monastery_of_St_John_%28example%29.jpg'
+'Јашуњски манастир Светог Јована',
+'Јашуњски манастир посвећен Светом Јовану представља духовни и културни центар у региону; манастирске заједнице обично чувају традиције и богату црквену уметност.',
+'icons/slike/Jasunjski manastir Svetog Jovana.png'
 ));
 
 rodjHristPirot.on('click', () => openInfo(
-  'Crkva Rođenja Hristovog, Pirot',
-  'Црква Рођења Христовог у Пироту је православни храм посвећен рођењу Исуса Христа; унутрашњост таквих цркава често је украшена иконама и фрескама вредним културно-историјске заштите.',
-  'https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Church_of_the_Nativity_%28example%29.jpg/250px-Church_of_the_Nativity_%28example%29.jpg'
+'Crkva Rođenja Hristovog, Pirot',
+'Црква Рођења Христовог у Пироту је православни храм посвећен рођењу Исуса Христа; унутрашњост таквих цркава често је украшена иконама и фрескама вредним културно-историјске заштите.',
+'icons/slike/Crkva Rodenja Hristovog, Pirot.png'
 ));
 
 islamAge.on('click', () => openInfo(
-  'Džamija Islama Agi',
-  'Джамија Ислама Аги је историјска џамија која носи име Ислама Аги; џамије са локалним именима често представљају важне верске и архитектонске споменике у својим заједницама.',
-  'https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Islam_Aga_Mosque.jpg/250px-Islam_Aga_Mosque.jpg'
-));
-
-dzenet.on('click', () => openInfo(
-  'Dženet Džamija',
-  'Дженет џамија (примерно име) представља локалну исламску богомољу која у многим заједницама игра централну улогу у верском и друштвеном животу.',
-  'https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Local_Mosque_example.jpg/250px-Local_Mosque_example.jpg'
+'Džamija Islama Agi',
+'Джамија Ислама Аги је историјска џамија која носи име Ислама Аги; џамије са локалним именима често представљају важне верске и архитектонске споменике у својим заједницама.',
+'icons/slike/Dzamija Islama Age.png'
 ));
 
 kartas.on('click', () => openInfo(
-  'Sportski kamp KaraTaš',
-  'Спортски камп Караташ је комплекс за тренинге и спортске активности; спортски кампови обично пружају терене, смештај и пратеће садржаје за спортисте и посетиоце.',
-  'https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Sports_camp_example.jpg/250px-Sports_camp_example.jpg'
+'Sportski kamp KaraTaš',
+'Спортски камп Караташ је комплекс за тренинге и спортске активности; спортски кампови обично пружају терене, смештај и пратеће садржаје за спортисте и посетиоце.',
+'icons/slike/Sportski kamp KaraTas.png'
 ));
 
 pozarevac.on('click', () => openInfo(
-  'Sportski centar Požarevac',
-  'Спортски центар у Пожаревцу је локални мултиспортивни објекат који служи за тренинге, такмичења и рекреацију; модерни центри обухватају затворене и отворене терене и пратећу инфраструктуру.',
-  'https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Sports_center_example.jpg/250px-Sports_center_example.jpg'
+'Sportski centar Požarevac',
+'Спортски центар у Пожаревцу је локални мултиспортивни објекат који служи за тренинге, такмичења и рекреацију; модерни центри обухватају затворене и отворене терене и пратећу инфраструктуру.',
+'icons/slike/Sportski centar Pozarevac.png'
 ));
 
 cair.on('click', () => openInfo(
-  'Sportski centar Čair',
-  'Спортски центар Чаир је велики комплекс са вишенамеским халама, теренима и пратећим садржајима за спорт и догађаје; познат је као важан градски спортски комплекс у Нишу.',
-  'https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Cair_Sports_Center.jpg/250px-Cair_Sports_Center.jpg'
+'Sportski centar Čair',
+'Спортски центар Чаир је велики комплекс са вишенамеским халама, теренима и пратећим садржајима за спорт и догађаје; познат је као важан градски спортски комплекс у Нишу.',
+'icons/slike/Sportski centar Cair.png'
 ));
 
 stara.on('click', () => openInfo(
-  'Stara planina',
-  'Стара планина (Ђердап/и други називи у региону) је планински масив на граници Србије и Бугарске, познат по биодиверзитету, планинарским рутама и зимским спортовима.',
-  'https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Stara_planina_example.jpg/250px-Stara_planina_example.jpg'
+'Stara planina',
+'Стара планина (Ђердап/и други називи у региону) је планински масив на граници Србије и Бугарске, познат по биодиверзитету, планинарским рутама и зимским спортовима.',
+'icons/slike/Stara planina.png'
 ));
 
 djavoljav.on('click', () => openInfo(
-  'Đavolja Varoš',
-  'Ђавоља Вaroш је природни феномен у Србији, познат по јединственим стубастим формацијама од вулканских седимента и заштићен као природни споменик.',
-  'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Djavolja_Varo%C5%A1_panorama.jpg/250px-Djavolja_Varo%C5%A1_panorama.jpg'
+'Đavolja Varoš',
+'Ђавоља Вaroш је природни феномен у Србији, познат по јединственим стубастим формацијама од вулканских седимента и заштићен као природни споменик.',
+'icons/slike/Davolja Varos.png'
 ));
 
 samar.on('click', () => openInfo(
-  'Prerast Šamar',
-  'Прераст Шамар је природни споменик и геолошка формација, познат по импресивним стенама и пејзажу; користи се као туристичка атракција и природни локалитет за посете.',
-  'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Prerast_Samar_example.jpg/250px-Prerast_Samar_example.jpg'
+'Prerast Šamar',
+'Прераст Шамар је природни споменик и геолошка формација, познат по импресивним стенама и пејзажу; користи се као туристичка атракција и природни локалитет за посете.',
+'icons/slike/Prerast Samar.png'
 ));
 
 vir.on('click', () => openInfo(
-  'Lepenski Vir',
-  'Лепенски Вир је археолошко налазиште у Србији са значајним неолитским остацима и сложеном праисторијском културом; место је једно од најважнијих праисторијских налазишта на Балкану.',
-  'https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Lepenski_Vir.jpg/250px-Lepenski_Vir.jpg'
+'Lepenski Vir',
+'Лепенски Вир је археолошко налазиште у Србији са значајним неолитским остацима и сложеном праисторијском културом; место је једно од најважнијих праисторијских налазишта на Балкану.',
+'icons/slike/Lepenski Vir.png'
 ));
 
 smederevska.on('click', () => openInfo(
-  'Smederevska tvrđava',
-  'Смедеревска тврђава је средњевековни утврђени град на Дунаву, подигнут у 15. веку као престонички замак деспота и краљева; представља значајан историјски и архитектонски споменик.',
-  'https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Smederevo_fortress.jpg/250px-Smederevo_fortress.jpg'
+'Smederevska tvrđava',
+'Смедеревска тврђава је средњевековни утврђени град на Дунаву, подигнут у 15. веку као престонички замак деспота и краљева; представља значајан историјски и архитектонски споменик.',
+'icons/slike/Smederevska tvrdava.png'
 ));
 
 manasija.on('click', () => openInfo(
-  'Manastir Manasija',
-  'Манасија је српски православни манастир из 15. века, познат по својим моћним бедемима, фрескама и школе монашке књижевности (Манасијска школа); налази се код Деспотовца и представља важан споменик средњевековне српске културе.',
-  'https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Manasija_monastery.jpg/250px-Manasija_monastery.jpg'
+'Manastir Manasija',
+'Манасија је српски православни манастир из 15. века, познат по својим моћним бедемима, фрескама и школе монашке књижевности (Манасијска школа); налази се код Деспотовца и представља важан споменик средњевековне српске културе.',
+'icons/slike/Manastir Manasija.png'
 ));
 
 golubacka.on('click', () => openInfo(
-  'Golubačka tvrđava',
-  'Голубачка тврђава је утврђење на Дунаву код Голупца, са историјским значајем као стратегијска тачка на граници; тврђава је добро очувана и важна туристичка дестинација.',
-  'https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Golubac_fortress.jpg/250px-Golubac_fortress.jpg'
+'Golubačka tvrđava',
+'Голубачка тврђава је утврђење на Дунаву код Голупца, са историјским значајем као стратегијска тачка на граници; тврђава је добро очувана и важна туристичка дестинација.',
+'icons/slike/Golubacka tvrdava.png'
 ));

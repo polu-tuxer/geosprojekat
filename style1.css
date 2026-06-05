@@ -33,7 +33,7 @@ grid-area: container;
 justify-self: center;     
 align-self: center;     
 width: 90%;
-max-width: 420px;
+max-width: 600px;
 padding: 24px;
 box-sizing: border-box;
 background: #fff;
@@ -80,7 +80,7 @@ footer {
   }
 
   .container {
-    width: calc(100% - 40px);
+    width: calc(100% - 20px);
     max-width: none;
     align-self: center;
     justify-self: start;
